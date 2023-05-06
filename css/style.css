@@ -3,14 +3,6 @@ body,h1,h2,p,ul,li,a {
   margin: 0px;
   padding: 0px;
 }
-body{
-  padding-top: 100px;
-}
-@media (max-width: 426px){
-  body{
-    padding-top:150px;
-  }
-}
 ul{
   list-style: none;
 }
@@ -76,12 +68,7 @@ li{
 }
 
 /* menu */
-.fix{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-}
+
 .menu-topo-bg{
   background: #3274F6;
 }
@@ -93,6 +80,7 @@ li{
   flex-wrap: wrap;
   max-width: 60em;
   margin: 0 auto;
+  padding: 0 0.5em;
 }
 .menu-item{
   font-weight: bold;
